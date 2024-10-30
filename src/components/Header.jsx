@@ -9,7 +9,7 @@ import {
 } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import { useCrypto } from "../CryptoContext";
+import { useCrypto } from "../CryptoContext"; // Updated import path
 import { Link } from "react-router-dom";
 
 const HeaderContainer = styled("div")({
